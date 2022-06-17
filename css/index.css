@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+   box-sizing: border-box;
+    }
+body{
+    font:BLACK;
+ 
+   min-block-size: 100vh;
+   max-width: 1080px;
+   max-height: 720px;
+   color:var(--purple);
+     margin :0;
+}
+.header{      
+    width: 1200px;
+height: 96px;
+
+
+
+background: #184A81;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+    margin:auto;
+    block-size: 80px;
+    position: sticky;
+    top:0;
+    max-width: 1160px;
+    margin: auto;
+    backdrop-filter: blur(25px);
+}
+.h-contenido{    
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex:1;
+    block-size: 80;
+    padding-inline-start: 16px;
+    padding-inline-end: 16px;
+}
+@media screen and (min-width: 1024px) {
+    .h-contenido {
+        padding-inline-start: 0px;
+        padding-inline-end: 0px;
+    }
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin-top:5px;
+    margin-left: 32px;
+    
+   
+}
+
+
+
+
+.menu{
+    display:none;
+   }
+   .menu ul{
+       display:inline-flex;
+       list-style: none;
+       gap: 80px;
+   }
+    .menu ul a{
+       text-decoration: none;
+       color: var(--white);
+       font: var(--button);
+       text-transform: uppercase;
+   }
+   .menu ul a.is-active{
+       color: var(--purple);
+   }
+   @media screen and (min-width:768px){
+       .menu{
+        display:inline-block;
+       }
+   
+   }
+
+
+ #categoria{
+ display: flex;
+ flex-direction: row; 
+
+padding: 8px 12px;
+
+margin-top :25px;
+gap:20px;
+width: 120px;
+height: 25px;
+background: #184A81;
+margin-left: 0px;
+margin-bottom: 5px;
+
+
+
+
+
+}
+
+ 
+#buscar{
+     display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 12px;
+gap: 10px;
+width: 400px;
+height: 10px;
+flex: none;
+order: 2;
+flex-grow: 1;
+margin-left: -40px;
+box-sizing: border-box; 
+
+
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 12px 0px 0px;
+
+position: absolute;
+width: 450px;
+height: 25px;
+left: 350px;
+top: 30px;
+
+
+
+background: #F2F3F5;
+
+
+border: 1px solid #1e7fdf;
+}
+
+.detalle{
+    display:inline-flex;
+
+    width: 300px;
+    height: 280px;
+    flex-wrap: wrap;
+   
+    border-radius: 50px;
+    
+    /* Inside auto layout */
+     margin-bottom: 40px;
+     margin-left: auto;
+    order: 0;
+    flex-grow: 0;
+  
+   }
+   .detalle img{
+    width: 100%;
+    height: auto;
+   }
+   @supports(object-fit: cover){
+    .detalle img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+

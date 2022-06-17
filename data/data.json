@@ -1,0 +1,105 @@
+
+ [
+    
+    {
+         "id":1,
+         "categorie":"deporte",
+         "city":"Lentes",
+         "name":"lentes",
+        "image":"imagens/lentes natacion.jpg"
+         
+     },
+     {
+        "id":1,
+        "categorie":"deporte",
+        "city":"ligas",
+        "name":"lodjdjdjjdjdjdjdjjdcnjdjdjdjdjjdjdjdjd",
+       "image":"imagens/ligas.jpeg"
+ 
+        
+    }  ,  
+    {
+       "id":1,
+       "categorie":"deporte",
+       "city":"Balon de futbol",
+       "name":"balon de futbol con aire de hidrogeno",
+      "image":"imagens/balon.jpg"
+ 
+       
+   } , 
+   {
+      "id":1,
+      "idc":4,
+      "city":"Raqueta ",
+      "name":"           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
+     "image":"imagens/raqueta.jpg"
+   },
+     {
+      "id":1,
+      "categorie":"deporte",
+      "city":"Zapatos deportivos",
+      "name":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
+     "image":"imagens/zapatos.jpg"
+     },
+     {
+      "id":1,
+      "categorie":"deporte",
+      "city":"Lodres",
+      "name":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
+     "image":"imagens/Londres.jpeg"
+
+      
+  } ,
+  {
+   "id":2,
+   "categorie":"juguetes",
+   "city":"Seul",
+   "name":"En Busca de las 7 Eferas del Gragon",
+  "image":"imagens/j1.jpeg"
+   
+},
+{
+  "id":2,
+  "categorie":"juguetes",
+  "city":"Tokio",
+  "name":"El gran torneo de las artes marciales",
+ "image":"imagens/j2.jpeg"
+
+  
+}  ,  
+{
+ "id":2,
+ "categorie":"juguetes",
+ "city":"Pekin",
+ "name":"La Torre Eiffel3​ (Tour Eiffel, en francés), inicialmente llamada Tour de 300 mètres (Torre de 300 metros) es una estructura de hierro pudelado diseñada inicialmente por los ingenieros civiles Maurice Koechlin y Émile Nouguier y construida, tras el rediseño estético de Stephen Sauvestre, por el ingeniero civil francés Alexandre Gustave Eiffel y sus colaboradores para la Exposición Universal de 1889 en París",
+"image":"imagens/j3.jpeg"
+
+ 
+} , 
+{
+"id":2,
+"idc":10,
+"categorie":"juguetes",
+"name":"El ejercito de la patrulla roja",
+"image":"imagens/j4.jpeg"
+},
+{
+"id":2,
+"categorie":"juguetes",
+"city":"Nueva Delhi",
+"name":" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
+"image":"imagens/j5.jpeg"
+},
+{
+"id":2,
+"categorie":"juguetes",
+"city":"Katmandu",
+"name":"El ejercito de la patrulla roja Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
+"image":"imagens/j6.jpeg"
+
+
+}   
+    
+ 
+ 
+ ]

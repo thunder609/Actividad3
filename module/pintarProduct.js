@@ -5,11 +5,11 @@ export const pintarProduct = ( data, template, cont ) => {
     let fragment = document.createDocumentFragment()
 
     data.forEach( h => {
-        const { id,city, image} = h;
+        const { id,name,descrip, image} = h;
 
         template.querySelector('img').setAttribute( 'src', image );
         // template.querySelector('h5').textContent = name;
-        template.querySelector('h3').textContent = city;
+        template.querySelector('h3').textContent = name;
         template.querySelector('#itemb').dataset.id = id;
 
         const clone = template.cloneNode(true);

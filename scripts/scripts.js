@@ -24,7 +24,7 @@ let deporte = document.getElementById('deporte');
 let electronic = document.getElementById('electronic');
 let lineablanca = document.getElementById('lineablanca');
  let buscador = document.getElementById('buscar');
-let url=('https://my-cool-basedatos.herokuapp.com/articulos')
+let url=('https://basedatosjson.herokuapp.com/articulos')
 let data
 document.addEventListener( "DOMContentLoaded", async () => {
 

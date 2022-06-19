@@ -2,7 +2,7 @@ let template = document.getElementById('template-card').content;
 let fragment = document.createDocumentFragment();
 let boton1 = document.querySelector('#itemb');
 let itm = document.getElementById('main');
-let url=('https://my-cool-basedatos.herokuapp.com/articulos')
+let url=('https://basedatosjson.herokuapp.com/articulos')
 //data impri
 let idd=0
 export const fetchData1 = async (idd) => {
@@ -38,7 +38,7 @@ export const fetchData1 = async (idd) => {
   
   
   const Modal = async (id2) => {
-    let url=(`../data/data.json`)
+    let url=(`https://basedatosjson.herokuapp.com/articulos`)
    const res = await fetch(url);
    const data = await res.json();
   let modal=document.getElementById('contenedorModal')

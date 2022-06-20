@@ -92,11 +92,12 @@ nav{
  flex-direction: row; 
 
 padding: 8px 12px;
-
+color:azure;
 margin-top :25px;
 gap:20px;
 width: 120px;
 height: 25px;
+
 background: #184A81;
 margin-left: 0px;
 margin-bottom: 5px;

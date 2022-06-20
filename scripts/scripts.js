@@ -69,7 +69,12 @@ document.addEventListener('click', (e) => {
 categorias.addEventListener('change', (e) => {
     let prueba = e.target.value;
     console.log("holakkkkk"+prueba)
-
+    if(prueba==0) {
+          const results = data.filter( h => h.categorie==="juguetes" || h.categorie==="deporte" )
+            
+      pintarProduct( results, template, itm);
+             console.log("results"+results)
+        }
 
     if(prueba==1){
     const results = data.filter( h => h.categorie==="juguetes") 
@@ -77,28 +82,54 @@ categorias.addEventListener('change', (e) => {
   pintarProduct( results, template, itm);
          console.log("results"+results)
     }
-    if(prueba==0){
+    if(prueba==2){
         const results = data.filter( h => h.categorie==="deporte") 
             
       pintarProduct( results, template, itm);
              console.log("results"+results)
-        }
+    
+
+}
     });   
 
-
-    buscador.addEventListener('change', (e) => {
+ 
+    buscador.addEventListener('keyup', async(e) => {
         e.preventDefault();
         let ingreso = e.target.value.toLowerCase();
+        const data =await getProduct('https://basedatosjson.herokuapp.com/articulos')
         console.log("ingreso"+ingreso)
-         let resBuscador = data.filter(item => item.name.toLowerCase() === ingreso);
-        console.log("holabuscador",resBuscador)
-    
-        if(resBuscador.length !== 0){
-            // let a = JSON.parse(resBuscador);
-            //    console.log(a)
-               pintarProduct( resBuscador, template, itm);
-        }else{
-           console.log("La busqueda que has realizado no ha sido exitosa")
+        let a
+       
+       
+        //console.log(texto)
+        let er = new RegExp(ingreso, "i")
+        console.log("errr"+er)
+        let  resBuscador = data.filter((item) => er.test(item.name));
+        console.log(resBuscador)
+        pintarProduct( resBuscador, template, itm);
+            // if(er.test(valor.innerText)){
+            //     valor.classList.remove("ocultar")
+            // }else{
+            //     console.log(valor)
+            //     valor.classList.add("ocultar")
+            // }
         }
+  
+        // let resBuscador=[]
+        // let  resBuscador = data.filter(item => item.name.toLowerCase() === ingreso.toLowerCase());
+        // console.log("holabuscador",resBuscador)
+       
+    
+        // if(resBuscador.length !== 0){
+        //     // let a = JSON.parse(resBuscador);
+        //     //    console.log(a)
+        //        pintarProduct( resBuscador, template, itm);
+        // }else{
+        //    console.log("La busqueda que has realizado no ha sido exitosa")
+        // }
+      
+        )
         
-    })
+    
+
+ 

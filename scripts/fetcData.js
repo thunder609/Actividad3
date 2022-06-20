@@ -78,3 +78,9 @@ export const fetchData1 = async (idd) => {
   
    })
   }
+
+  function filterItems(query) {
+    return url.filter(function(el) {
+        return el.toLowerCase().indexOf(query.toLowerCase()) > -1;
+    })
+  }

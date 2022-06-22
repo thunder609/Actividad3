@@ -6,97 +6,99 @@
          "categorie":"deporte",
          "name":"Lentes",
          "descrip":"lentes",
-        "image":"imagens/lentes natacion.jpg"
-         
+        "image":"imagens/lentes natacion.jpg",
+        "precio":4000
      },
      {
-        "id":1,
+        "id":2,
         "categorie":"deporte",
         "name":"ligas",
         "descrip":"lodjdjdjjdjdjdjdjjdcnjdjdjdjdjjdjdjdjd",
-       "image":"imagens/ligas.jpeg"
+       "image":"imagens/ligas.jpeg",
+       "precio":14000
  
         
     }  ,  
     {
-       "id":1,
+       "id":3,
        "categorie":"deporte",
        "name":"Balon de futbol",
        "descrip":"balon de futbol con aire de hidrogeno",
-      "image":"imagens/balon.jpg"
+      "image":"imagens/balon.jpg",
+      "precio":24000
  
        
    } , 
    {
-      "id":1,
+      "id":4,
       "idc":4,
       "name":"Raqueta ",
       "descrip":"           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
-     "image":"imagens/raqueta.jpg"
+     "image":"imagens/raqueta.jpg",
+     "precio":10000
    },
      {
-      "id":1,
+      "id":5,
       "categorie":"deporte",
       "name":"Zapatos deportivos",
       "descrip":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
-     "image":"imagens/zapatos.jpg"
+     "image":"imagens/zapatos.jpg",
+     "precio":4000
      },
-     {
-      "id":1,
-      "categorie":"deporte",
-      "name":"Lodres",
-      "descrip":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
-     "image":"imagens/Londres.jpeg"
-
-      
-  } ,
+    
  {
-   "id":2,
+   "id":7,
    "categorie":"juguetes",
-   "name":"Telefono de bebe",
+   "name":"Vaquero",
    "descrip":"En Busca de las 7 Eferas del Gragon",
-  "image":"imagens/j1.jpeg"
+  "image":"imagens/j1.jpeg",
+  "precio":44000
    
 },
 {
-  "id":2,
+  "id":8,
   "categorie":"juguetes",
   "name":"Buzz Lightyear",
   "descrip":"El gran torneo de las artes marciales",
- "image":"imagens/j2.jpeg"
+ "image":"imagens/j2.jpeg",
+ "precio":50000
 
   
 }  ,  
 {
- "id":2,
+ "id":9,
  "categorie":"juguetes",
  "name":"Traform optium",
  "descrip":"La Torre Eiffel3​ (Tour Eiffel, en francés), inicialmente llamada Tour de 300 mètres (Torre de 300 metros) es una estructura de hierro pudelado diseñada inicialmente por los ingenieros civiles Maurice Koechlin y Émile Nouguier y construida, tras el rediseño estético de Stephen Sauvestre, por el ingeniero civil francés Alexandre Gustave Eiffel y sus colaboradores para la Exposición Universal de 1889 en París",
-"image":"imagens/j3.jpeg"
+"image":"imagens/j3.jpeg",
+"precio":30000
 
  
 } , 
 {
-"id":2,
+"id":10,
 "idc":10,
 "categorie":"juguetes",
 "name":"GokuSa Super Saiyajin Azul",
 "descrip":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
-"image":"imagens/j4.jpeg"
+"image":"imagens/j4.jpeg",
+"precio":34000
 },
 {
-"id":2,
+"id":11,
 "categorie":"juguetes",
 "name":"Traform Turbo",
 "descrip":" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
-"image":"imagens/j5.jpeg"
+"image":"imagens/j5.jpeg",
+"precio":45000
 },
 {
-"id":2,
+"id":12,
 "categorie":"juguetes",
 "name":"Bumblebeee",
 "descrip":"El ejercito de la patrulla roja Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
-"image":"imagens/j6.jpeg"
+"image":"imagens/j6.jpeg",
+"precio":43000
 
 
 }   

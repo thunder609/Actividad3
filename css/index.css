@@ -163,8 +163,8 @@ border: 1px solid #1e7fdf;
   
    }
    .detalle img{
-    width: 100%;
-    height: auto;
+    width: 250px;
+    height: 250px;
    }
    @supports(object-fit: cover){
     .detalle img{

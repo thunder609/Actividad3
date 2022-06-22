@@ -54,36 +54,97 @@
     <div class="main" id="main">
       
             <h1>Area de Deportes</h1>
-            <div class='row ' id='deporteCon'>
+            <div class='row '  id="it">
              
               <template id='template-card'>
                 
                 <div class="detalle border border-primary">  
                      
-                    <img class="img-fluid" id="img2" width="30" height="350" src="" ></img>
+                    <img class="img-fluid card-img-top" id="img2" width="30" height="350" src="" ></img>
                   
                      <h5></h5>
                      <h3></h3>
+                     <p></p>
                      <!-- <button id='bot'>agregar</button> -->
-                     <button class="itemb btn btn-primary" type="button"  data-bs-toggle="modal" data-bs-target="#contenedorModal" id="itemb" >agregar </button>
-                </div>
+                     <button class="itemb btn btn-primary" type="button"   id="itemb" >agregar </button>
+                        </div>
+                    
+   
            
-              
-              </div>
+                      </div>
+                      <tbody id="items"></tbody>
              </template>
-      
-          </div>
-        </div>
-    
-      
-     
-         
-             
             </div>
-        </div>
-      </div> 
-</div>
-
+            </div>
+            <br>
+            <br>
+             <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Codigo</th>
+                  <th scope="col">Item</th>
+                  <th scope="col">Cantidad</th>
+                  <th scope="col">Operacion</th>
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody id="items"></tbody>
+            
+         
+              <tfoot>
+                <tr id="footer">
+                  <th scope="row" colspan="5">Carrito vacío - apreveche con no pagas IVA!</th>
+                </tr>
+              </tfoot>
+            </table>
+       
+          <div>   <tbody id="main">
+            <template id="template-carrito">
+              <tr>
+                <th scope="row"></th>
+                <td>
+                <h5></h5>
+                <h3></h3>
+                
+                <!-- <p></p> -->
+                </td>          
+                <h3></h3>
+                <td>
+                </td>          
+                <h3></h3>
+                <td>
+                    <button class="btn btn-info btn-sm">
+                        +
+                    </button>
+                    <button class="btn btn-danger btn-sm">
+                        -
+                    </button>
+                </td>
+                 <td><p>500</p>
+                </td>
+              </tr>
+           
+            </template>
+          </tbody>
+          
+          </div>
+       
+           
+          
+        
+         <template id="template-footer">
+                <th scope="row" colspan="2">Total productos</th>
+                <td>10</td>
+                <td>
+                    <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+                        vaciar todo
+                    </button>
+                </td>
+                <td class="font-weight-bold">$ <span>5000</span></td>
+            </template> 
+            
+           
+           
 
 
 

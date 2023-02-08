@@ -20,7 +20,7 @@ let categorias = document.getElementById('categoria');
 
 
  let buscador = document.getElementById('buscar');
-let url=('https://ecomerceyarn.onrender.com/articulos')
+let url=('https://ecomerce-5og4.onrender.com/articulos')
 let data
 let carrito={}
 document.addEventListener( "DOMContentLoaded", async () => {

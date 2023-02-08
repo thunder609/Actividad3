@@ -86,7 +86,7 @@ categorias.addEventListener('change', (e) => {
     buscador.addEventListener('keyup', async(e) => {
         e.preventDefault();
         let ingreso = e.target.value.toLowerCase();
-        const data =await getProduct('https:ecomerceyarn.onrender.com/articulos')
+        const data =await getProduct('https://ecomerce-5og4.onrender.com/articulos')
         console.log("ingreso"+ingreso)       
         let er = new RegExp(ingreso, "i")
         console.log("errr"+er)

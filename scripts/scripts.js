@@ -20,7 +20,7 @@ let categorias = document.getElementById('categoria');
 
 
  let buscador = document.getElementById('buscar');
-let url=('https://ecomerce-8sfa.onrender.com/articulos')
+let url=('https:ecomerceyarn.onrender.com/articulos')
 let data
 let carrito={}
 document.addEventListener( "DOMContentLoaded", async () => {
@@ -86,7 +86,7 @@ categorias.addEventListener('change', (e) => {
     buscador.addEventListener('keyup', async(e) => {
         e.preventDefault();
         let ingreso = e.target.value.toLowerCase();
-        const data =await getProduct('https://ecomerce-8sfa.onrender.com/articulos')
+        const data =await getProduct('https:ecomerceyarn.onrender.com/articulos')
         console.log("ingreso"+ingreso)       
         let er = new RegExp(ingreso, "i")
         console.log("errr"+er)
